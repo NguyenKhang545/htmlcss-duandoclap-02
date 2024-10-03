@@ -255,7 +255,7 @@ a {
     margin-top: 130px;
 }
 
-.feature .main-content {
+.feature .body {
     width: 1024px;
 }
 
@@ -293,9 +293,18 @@ a {
     margin-top: 26px;
 }
 
-.feature .feature-list .desc {
+.feature .feature-list .feature-item .desc {
     color: #9da6a5;
     font-size: 1.6rem;
     line-height: 1.69;
     width: 168px;
+    margin-top: 16px;
+}
+
+.feature .feature-list .feature-item:nth-child(2) .desc {
+    width: 223px;
+}
+
+.feature .feature-list .feature-item:nth-child(3) .desc {
+    width: 224px;
 }
