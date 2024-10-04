@@ -446,3 +446,138 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.feedback {
+    margin-top: 264px;
+}
+
+.feedback .body {
+    display: flex;
+}
+
+.feedback .media-block {
+    width: 36%;
+}
+
+.feedback .content-block {
+    width: 58%;
+    margin-left: 72px;
+}
+
+.feedback .media-block blockquote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.feedback .media-block .desc {
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.feedback .media-block .desc strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+    padding-left: 13px;
+}
+
+.feedback .media-block .desc strong::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    left: 0;
+    top: 11px;
+}
+
+/* ======================== */
+
+.feedback .content-block {
+    display: flex;
+    position: relative;
+    height: 481px;
+}
+
+.feedback .avatar-1 {
+    position: absolute;
+    left: 144px;
+    top: 0;
+}
+
+.feedback .avatar-2 {
+    position: absolute;
+    right: 0;
+    top: 19px;
+}
+
+.feedback .avatar-3 {
+    position: absolute;
+    left: 273px;
+    top: 107px;
+}
+
+.feedback .avatar-4 {
+    position: absolute;
+    left: 0;
+    top: 258px;
+}
+
+.feedback .avatar-5 {
+    position: absolute;
+    bottom: 0;
+    left: 212px;
+}
+
+.feedback .avatar-6 {
+    position: absolute;
+    bottom: 29px;
+    right: 32px;
+}
+
+.feedback .arrow {
+    margin-top: 52px;
+    display: flex;
+    gap: 0 30px;
+}
+
+.feedback .arrow-left {
+    border-radius: 50px;
+    background: #2ac9bf;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #2ac9bf;
+}
+
+.feedback .arrow-left:hover {
+    color: #2ac9bf;
+    background: #fff;
+}
+
+.feedback .arrow-right {
+    border-radius: 50px;
+    background: #2ac9bf;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #2ac9bf;
+}
+
+.feedback .arrow-right:hover {
+    color: #2ac9bf;
+    background: #fff;
+}
