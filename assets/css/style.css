@@ -22,6 +22,19 @@ body {
 a {
     text-decoration: none;
 }
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    min-width: 186px;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    padding: 25px 8px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
 /* Header */
 
 .header .body {
@@ -65,7 +78,7 @@ a {
     font-size: 1.6rem;
 }
 
-.header .action .btn {
+.header .action .sign-up {
     display: inline-block;
     color: #1ebfc1;
     text-align: center;
@@ -114,19 +127,6 @@ a {
     display: flex;
     align-items: center;
     margin-top: 52px;
-}
-
-.hero .media-block .cta-group .btn {
-    text-align: center;
-    display: inline-block;
-    min-width: 186px;
-    border-radius: 14px;
-    background: #1ebfc1;
-    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
-    padding: 25px 8px;
-    color: #fff;
-    font-size: 1.8rem;
-    font-weight: 600;
 }
 
 .hero .media-block .cta-group button {
@@ -580,4 +580,84 @@ a {
 .feedback .arrow-right:hover {
     color: #2ac9bf;
     background: #fff;
+}
+
+.cta {
+    padding: 76px 135px 88px;
+    background: #def6f5;
+    margin-top: 130px;
+}
+
+.cta .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-content .heading {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.cta-content .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    margin-top: 18px;
+}
+
+.cta .btn {
+    margin-right: 138px;
+    box-shadow: none;
+}
+
+.footer {
+    margin-top: 130px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 144px;
+}
+
+.footer .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .column ul {
+    margin-top: 25px;
+}
+
+.footer .column li a {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .column li a,
+.footer .column span {
+    color: #535353;
+    font-size: 1.6rem;
+    text-wrap: nowrap;
+}
+
+.footer .column li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .column .socials-icon {
+    margin-right: 9px;
+}
+
+.footer .copy-right {
+    padding: 80px 0 50px;
+}
+
+.footer .copy-right p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
 }
