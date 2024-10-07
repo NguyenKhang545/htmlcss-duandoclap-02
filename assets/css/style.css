@@ -35,6 +35,10 @@ a {
     font-size: 1.8rem;
     font-weight: 600;
 }
+
+.btn:hover {
+    opacity: 0.9;
+}
 /* Header */
 
 .header .body {
@@ -60,7 +64,8 @@ a {
     padding: 8px 19.5px;
 }
 
-.header .nav ul a:hover {
+.header .nav ul a:hover,
+.header .sign-in:hover {
     color: #2f3a3b;
     text-shadow: 1px 0 0 currentColor;
 }
