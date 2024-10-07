@@ -39,6 +39,12 @@ a {
 .btn:hover {
     opacity: 0.9;
 }
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 /* Header */
 
 .header .body {
@@ -267,6 +273,7 @@ a {
     color: #767e7e;
     font-size: 1.2rem;
     font-weight: 700;
+    word-break: break-all;
 }
 
 .feature h2.heading {
