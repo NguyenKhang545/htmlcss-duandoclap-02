@@ -12,6 +12,11 @@
         />
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
     </head>
     <body>
         <header class="header fixed">
@@ -56,7 +61,7 @@
             <div class="hero">
                 <div class="main-content">
                     <div class="body">
-                        <div class="media-block">
+                        <div class="media-block animate__fadeInTopLeft wow">
                             <p class="title">😎 EASY LEAENING PLATFORM</p>
                             <h1 class="heading">Words learner come here.</h1>
                             <p class="desc">
@@ -75,7 +80,7 @@
                             </div>
                         </div>
 
-                        <div class="content-block">
+                        <div class="content-block animate__backInDown wow">
                             <div class="hero-img">
                                 <img
                                     src="./assets/img/hero-img.svg"
@@ -142,7 +147,7 @@
                 </div>
             </div>
 
-            <div class="feature">
+            <div class="feature animate__lightSpeedInLeft wow">
                 <div class="main-content">
                     <div class="body">
                         <p class="title">F E A T U R E S</p>
@@ -197,7 +202,9 @@
                 </div>
             </div>
 
-            <div class="courses">
+            <div
+                class="courses animate__animated animate__lightSpeedInLeft wow"
+            >
                 <div class="main-content">
                     <div class="courses-top">
                         <p class="title">C O U R S E S</p>
@@ -286,7 +293,7 @@
                 </div>
             </div>
 
-            <div class="qty">
+            <div class="qty animate__animated animate__bounceInUp wow">
                 <div class="main-content">
                     <div class="row">
                         <div class="content">
@@ -524,5 +531,14 @@
                 </div>
             </div>
         </footer>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            new WOW({ animateClass: "animate__animated " }).init();
+        </script>
     </body>
 </html>
