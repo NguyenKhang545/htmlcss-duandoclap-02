@@ -15,8 +15,8 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
         <!-- CDN -->
         <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
     </head>
     <body>
@@ -62,9 +62,11 @@
             <div class="hero">
                 <div class="main-content">
                     <div class="body">
-                        <div class="media-block animate__fadeInTopLeft wow">
+                        <div class="media-block">
                             <p class="title">😎 EASY LEAENING PLATFORM</p>
-                            <h1 class="heading">Words learner come here.</h1>
+                            <h1 class="heading" data-aos="fade-right">
+                                Words learner come here.
+                            </h1>
                             <p class="desc">
                                 Build skills with courses, certificates, and get
                                 online knowledge from our world-class platform.
@@ -81,7 +83,7 @@
                             </div>
                         </div>
 
-                        <div class="content-block animate__backInDown wow">
+                        <div class="content-block">
                             <div class="hero-img">
                                 <img
                                     src="./assets/img/hero-img.svg"
@@ -148,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="feature animate__lightSpeedInLeft wow">
+            <div class="feature" data-aos="fade-up-right">
                 <div class="main-content">
                     <div class="body">
                         <p class="title">F E A T U R E S</p>
@@ -203,9 +205,7 @@
                 </div>
             </div>
 
-            <div
-                class="courses animate__animated animate__lightSpeedInLeft wow"
-            >
+            <div class="courses">
                 <div class="main-content">
                     <div class="courses-top">
                         <p class="title">C O U R S E S</p>
@@ -294,7 +294,7 @@
                 </div>
             </div>
 
-            <div class="qty animate__animated animate__bounceInUp wow">
+            <div class="qty">
                 <div class="main-content">
                     <div class="row">
                         <div class="content">
@@ -415,7 +415,7 @@
                 </div>
             </div>
 
-            <div class="cta">
+            <div class="cta" data-aos="flip-down">
                 <div class="main-content">
                     <div class="body">
                         <div class="cta-content">
@@ -532,14 +532,9 @@
                 </div>
             </div>
         </footer>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-            integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            new WOW({ animateClass: "animate__animated " }).init();
+            AOS.init();
         </script>
     </body>
 </html>
